@@ -112,7 +112,7 @@
     if(isNaN(offsetDays)) {
       layer.style.display = 'block';
       title.innerHTML = '欢迎到来';
-      //welcomeDOM.innerHTML = `您是本站的第${totalVisit}位访问者`;
+      welcomeDOM.innerHTML = `您是本站的第${totalVisit}位访问者`;
       welcomeDOM.style.display = 'flex';
     } else if (offsetDays >= welcome.interval) {
       layer.style.display = 'block';
